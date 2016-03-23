@@ -1,4 +1,4 @@
-># bold and Bold
+># Italics and Bold in Markdown
 
 To make a phrase italic in Markdown, you can surround words with an underscore or asterisk ( _ or * ).
 
