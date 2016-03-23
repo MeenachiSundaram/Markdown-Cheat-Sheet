@@ -14,11 +14,11 @@ To make a phrase italic in Markdown, you can surround words with an underscore o
 Similarly, to make phrases bold in Markdown, you can surround words with two asterisks or two underscores ( ** or __ ).
 * For example, `**this**` or `__this__` word would become bold.
 
-  `_Bold_` = _Bold_
+  `__Bold__` = __Bold__
 
   or
 
-  `*Bold*` = *Bold*
+  `**Bold**` = **Bold**
 
 
 <kbd>CTRL</kbd>
