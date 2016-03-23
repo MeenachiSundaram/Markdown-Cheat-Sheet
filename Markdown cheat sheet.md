@@ -33,7 +33,8 @@ In general, it doesn't matter which order you place the asterisks or underscores
 ---
 
 ### For Button Icon
-<kbd>Button</kbd>
+
+  `<kbd>Button</kbd>` = <kbd>Button</kbd>
 
 ### For subscript and superscript
 
