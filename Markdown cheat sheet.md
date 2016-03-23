@@ -36,8 +36,8 @@ In general, it doesn't matter which order you place the asterisks or underscores
 
 ### For subscript and superscript
 
-`<sub>sub</sub>Script` = <sub>sub</sub>
-script
+`<sub>sub</sub>Script` = <sub>sub</sub>Script
+
 `Super<sup>script</sup>` = Super<sup>script</sup>
 
 ### For dagger & Dagger icon
