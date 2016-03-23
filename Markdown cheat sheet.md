@@ -21,9 +21,10 @@ Similarly, to make phrases bold in Markdown, you can surround words with two ast
 
 Of course, you can use the following options too `both italics and bold on same line` or `together`.
 * For example,
+
   `Both _Italics_ and **Bold**` = Both _Italics_ and **Bold**
 
-  `Together` = **_Together_**
+  `**_Together_**` = **_Together_**
 
 Place the asterisks **_on the outside_**, just to make it more legible
 
