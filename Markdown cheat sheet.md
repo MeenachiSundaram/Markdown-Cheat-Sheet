@@ -37,22 +37,23 @@ In general, it doesn't matter which order you place the asterisks or underscores
 This can be used as a titles or subtitles.
 
 There are six types of headers, in decreasing sizes:
-
+```
 # This is header one
 ## This is header two
 ### This is header three
 #### This is header four
 ##### This is header five
 ###### This is header six
-
+```
 To do so we just add one hash mark for `(# Header One)`, while for a header two, you'd use two `(## Header Two)` and so on.
 
 You can also combine headers with italics and bold as shown below.
 
-### **Bold** <= `### **Bold**`
+```
+### **Header3 & Bold**
 
-##### _Italics_ <= `##### _Italics_`
-
+##### _Header4 & Italics_
+```
 ---
 
 ### For Button Icon
