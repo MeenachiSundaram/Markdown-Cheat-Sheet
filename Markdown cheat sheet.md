@@ -167,9 +167,9 @@ In Markdown there are two different way to create a world wide web link but both
   [1]: https://www.github.com
   [text itself]: https://www.github.com
 
-  * Reference links don't appear in the rendered Markdown. You define them by providing the same tag name wrapped in brackets, followed by a colon, followed by the link.
+* Reference links don't appear in the rendered Markdown. You define them by providing the same tag name wrapped in brackets, followed by a colon, followed by the link.
 
-  * Advantage of the reference link style is that multiple links to the same place only need to be updated once.
+* Advantage of the reference link style is that multiple links to the same place only need to be updated once.
 
 ---
 ### For Button Icon
