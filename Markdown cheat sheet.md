@@ -50,7 +50,7 @@ To do so we just add one hash mark for `(# Header One)`, while for a header two,
 * You can also combine headers with italics and bold as shown below.
 ```
 ### **Header3 & Bold**
-##### _Header4 & Italics_ 
+##### _Header4 & Italics_
 ```
 Output is,
 ### **Header3 & Bold**
@@ -92,21 +92,23 @@ There are two types,
 * Classic Block quotes
 
   It include this `>` at the beginning of each line
-  ```
-  > Block quote line 1!
-  > Block quote line 2!
-  ``` 
+
+      > Block quote line 1!
+
+      > Block quote line 2!
+
+
   Output is,
   > Block quote line 1!
-  
+
   > Block quote line 2!
-  
+
 *  Lazy Block quotes
   It include this `>` at the beginning of first line
-  ```
-  > With Block quote line 1!
-   Without Block quote line 2!
-  ``` 
+
+      > With Block quote line 1!
+       Without Block quote line 2!
+
   Output is,
   > With Block quote line 1!
     Without Block quote line 2!
@@ -115,64 +117,59 @@ There are two types,
 
 # Web Links
 
-You can make links to other web sites on the world wide web with two different link types in Markdown, but both of them render the exact same way. 
+In Markdown there are two different way to create a world wide web link but both of them are same.
 
-* The first link style is called an inline link. To create an inline link, you wrap the link text in brackets ( [ ] ), and then you wrap the link in parenthesis ( ( ) ).
+* First link style is called an inline link.
 
-  For example, to create a hyperlink to www.github.com, with a link text that says, Visit GitHub!
+  To create an inline link, you wrap the link text in brackets "[ ]", and then you wrap the link in parenthesis " ( ) ".
 
-    you'd write this in Markdown: `[Visit GitHub!](www.github.com)`.
+  For example,
 
-    Output is,
-
-    [Visit GitHub!](www.github.com)
-
-* The second link type is called a reference link. As the name implies, the link is actually a reference to another place in the document. 
-
-  Example:
-
-      [I'm an inline-style link](https://www.google.com)
-      
-      [I'm an inline-style link with title](https://www.google.com "Google's Homepage")
-      
-      [I'm a reference-style link][Arbitrary case-insensitive reference text]
-      
-      [I'm a relative reference to a repository file](../blob/master/LICENSE)
-      
-      [You can use numbers for reference-style link definitions][1]
-      
-      Or leave it empty and use the [link text itself].
-      
-      URLs and URLs in angle brackets will automatically get turned into links. 
-      http://www.example.com or <http://www.example.com> and sometimes 
-      example.com (but not on Github, for example).
-      
-      Some text to show that the reference links can follow later.
-      
-      [arbitrary case-insensitive reference text]: https://www.mozilla.org
-      [1]: http://slashdot.org
-      [link text itself]: http://www.reddit.com
+  To create a hyperlink to www.github.com, with a link text that says, Visit GitHub! You'd write this in Markdown: `[Visit GitHub!](https://www.github.com)`.
 
   Output is,
 
-  [Visit GitHub!][github]
-  
-  [Visit Google!][google]
+  [Visit GitHub!](https://www.github.com)
 
-  [github]: www.github.com
-  [google]: www.google.com
-  
+  To create a hyperlink to www.github.com, with a link text that says, Visit Github! with the title GITHUB You'd write this in Markdown: `[Visit GitHub!](https://www.github.com "GITHUB")`.
 
-  The "references" above are the second set of brackets: [another place] and [another-link]. At the bottom of a Markdown document, these brackets are defined as proper links to outside websites. An advantage of the reference link style is that multiple links to the same place only need to be updated once. For example, if we decide to make all of the [another place] links go somewhere else, we only have to change the single reference link.
+  Output is,
 
-Reference links don't appear in the rendered Markdown. You define them by providing the same tag name wrapped in brackets, followed by a colon, followed by the link.
+  [Visit GitHub!](https://www.github.com "GITHUB")
 
-In the box below, we've started writing out some reference links. You'll need to finish them up! Call the first reference tag "a fun place", and make it link to www.zombo.com; make the second link out to www.stumbleupon.com.
+* Second link type is called a reference link.
 
-Skip
-You now know how to make links in Markdown!
+  As the name implies, the link is actually a reference to another place in the document.
 
-On to the next lesson!
+  Example:
+
+      [Reference-style link][reference text]
+
+      [Numbers has reference-style link definitions][1]
+
+      Or simply use the [text itself].
+
+      Link to the references are mentioned at the end, like as follows.
+
+      [reference text]: https://www.github.com
+      [1]: https://www.github.com
+      [text itself]: https://www.github.com
+
+  Output is,
+
+  [Reference-style link][reference text]
+
+  [Numbers has reference-style link definitions][1]
+
+  Or simply use the [text itself].
+
+  [reference text]: https://www.github.com
+  [1]: https://www.github.com
+  [text itself]: https://www.github.com
+
+  * Reference links don't appear in the rendered Markdown. You define them by providing the same tag name wrapped in brackets, followed by a colon, followed by the link.
+
+  * Advantage of the reference link style is that multiple links to the same place only need to be updated once.
 
 ---
 ### For Button Icon
